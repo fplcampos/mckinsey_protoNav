@@ -1,0 +1,136 @@
+/** Stage container **/
+.connected-carousels {
+	position: relative;
+	top: 838px;
+}
+
+
+.connected-carousels .stage {
+	width: 100%;
+	position: relative;
+}
+
+.connected-carousels .photo-credits {
+	position: absolute;
+	right: 15px;
+	bottom: 0;
+	font-size: 13px;
+	color: #fff;
+	text-shadow: 0 0 1px rgba(0, 0, 0, 0.85);
+	opacity: .66;
+}
+
+.connected-carousels .photo-credits a {
+	color: #fff;
+}
+
+/** Navigation container **/
+
+.connected-carousels .navigation {
+	width: 613px;
+	position: absolute;
+	bottom: -56px;
+	left: 309px;
+}
+
+/** Shared carousel styles **/
+
+.connected-carousels .carousel {
+	overflow: hidden;
+	position: relative;
+}
+
+.connected-carousels .carousel ul {
+	width: 20000em;
+	position: relative;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.connected-carousels .carousel li {
+	float: left;
+}
+
+/** Stage carousel specific styles **/
+
+.connected-carousels .carousel-stage {
+	height: 575px;
+}
+
+/** Navigation carousel specific styles **/
+
+.connected-carousels .carousel-navigation {
+	height: 113px;
+	width: 589px;
+	background: #fff;
+	padding: 7px 12px;
+}
+
+.connected-carousels .carousel-navigation li {
+	cursor: pointer;
+	margin-right:8px;
+}
+
+.connected-carousels .carousel-navigation li:last-child {
+	margin-right:0;
+}
+
+.connected-carousels .carousel-navigation li img {
+	display: block;
+}
+
+.connected-carousels .carousel-navigation li.active img {
+	border-bottom: 4px solid #e2741f;
+	padding-bottom: 2px;
+}
+
+/** Stage carousel controls **/
+
+.connected-carousels .prev-stage,
+.connected-carousels .next-stage {
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 305px;
+	height: 575px;
+	color: #fff;
+}
+
+.connected-carousels .prev-stage {
+	left: 0;
+}
+
+.connected-carousels .next-stage {
+	right: 0;
+}
+
+.connected-carousels .prev-stage.inactive,
+.connected-carousels .next-stage.inactive {
+	display: none;
+}
+
+.connected-carousels .prev-stage span,
+.connected-carousels .next-stage span {
+	display: none;
+	position: absolute;
+	top: 50%;
+	width: 17px;
+	height: 34px;
+	text-indent: -9999px;	
+}
+
+.connected-carousels .prev-stage span {
+	left: 50%;
+	background: url('../images/images/setas_02.png') no-repeat center;
+}
+
+.connected-carousels .next-stage span {
+	right: 50%;
+	background: url('../images/images/setas_04.png') no-repeat center;
+}
+
+.connected-carousels .prev-stage:hover span,
+.connected-carousels .next-stage:hover span {
+	display: block;
+}

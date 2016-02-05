@@ -1,0 +1,89 @@
+
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* BGs TELAS */
+.index {margin:0 auto; min-height:3800px; position:relative; width:1236px}
+.estudos {margin:0 auto; min-height:2861px; position:relative; width:1236px}
+.login {margin:0 auto; min-height:882px; position:relative; width:1236px}
+.cadastro {margin:0 auto; min-height:1010px; position:relative; width:1236px}
+.resultado_busca {margin:0 auto; min-height:1567px; position:relative; width:1236px}
+
+.loading {margin:50px auto 0; text-align:center; width:1236px}
+
+.menu,
+.menu_interno,
+.noticias,
+.hover,
+.menu_,
+.menu_Over,
+.drop {display:none;}
+
+.menu,
+.menu_interno {margin:0 auto; position:fixed; top:0; width:1236px;}
+
+a.home {display:block; height:34px; left:150px; position:absolute; top:65px; width:463px; z-index:10;}
+a.hover_ {display:block; height:385px; left:165px; position:absolute; top:781px; width:263px; z-index:10;}
+a.hover_menu {display:block; height:69px; left:146px; position:absolute; top:587px; width:191px; z-index:100;}
+a.hover_menuOver {display:block; height:69px; left:146px; position:absolute; top:2px; width:191px; z-index:11;}
+a.hover_drop {display:block; height:50px; left:165px; position:absolute; top:705px; width:218px; z-index:10;}
+a.btBusca {display:block; height:42px; position:absolute; right:148px; top:602px; width:259px;}
+a.meusFavs {display:block; height:42px; position:absolute; right:721px; top:602px; width:155px;}
+a.novidades {display:block; height:42px; position:absolute; right:429px; top:602px; width:249px;}
+a.favorite {display:block; height:50px; left:176px; position:absolute; top:1606px; width:203px; z-index:10;}
+a.btCadastro {display:block; height:40px; position:absolute; right:399px; top:625px; width:166px;}
+
+.menu a.btBusca {right:148px; top:16px;}
+.menu a.meusFavs {top:16px;}
+.menu a.novidades {top:16px;}
+
+.menu_interno a.btBusca.btBuscaInt {right:148px; top:16px;}
+.menu_interno a.meusFavs.meusFavsInt {top:16px;}
+.menu_interno a.novidades.novidadesInt {top:16px;}
+.menu_interno a.meusFavs {top:16px;}
+.menu_interno a.novidades {top:16px;}
+
+.estudos a.btBusca {top:271px;}
+.estudos a.hover_menu {left:144px; top:257px; width:193px;}
+.estudos a.meusFavs {top:271px;}
+.estudos a.novidades {top:271px;}
+
+.login a.btBusca {right:148px; top:271px;}
+.login a.hover_menu {left:146px; top:257px; width:191px;}
+.login a.meusFavs {top:271px;}
+.login a.novidades {top:271px;}
+
+.cadastro a.btBusca {right:148px; top:271px;}
+.cadastro a.hover_menu {left:146px; top:257px; width:191px;}
+.cadastro a.meusFavs {top:271px;}
+.cadastro a.novidades {top:271px;}
+
+.hover {left:165px; position:absolute; top:972px;}
+
+.menu_ {height:411px; left:0; position:absolute; top:56px; width:880px;}
+.menu_Over {height:411px; left:0; position:absolute; top:56px; width:880px; z-index:11;}
+
+.drop {left:-21px; position:absolute; top:38px;}

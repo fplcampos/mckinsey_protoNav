@@ -1,0 +1,96 @@
+
+/* RESET */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, input, select,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after,
+q:before, q:after { content: ''; content: none; }
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* BGs TELAS */
+.index {background:url('../images/00_McKinsey_site.jpg') no-repeat center top; min-height:2708px;}
+.login {background:url('../images/01_McKinsey_site.jpg') no-repeat center top; min-height:2800px;}
+.cadastro {background:url('../images/04_Cadastro.jpg') no-repeat center top; min-height:1054px;}
+.cadastroErro {background:url('../images/04_Cadastro.jpg') no-repeat center top; min-height:1054px;}
+.cadastroRealizado {background:url('../images/04_Cadastro_Sucesso.jpg') no-repeat center top; min-height:1054px;}
+.estudos {background:url('../images/05_Estudos.jpg') no-repeat center top; min-height:3060px;}
+.estudoDescricao {background:url('../images/06_Estudo_descricao.jpg') no-repeat center top; min-height:1750px;}
+.sugestoes {background:url('../images/08_Sugestoes_estudos.jpg') no-repeat center top; min-height:2168px;}
+.resultadoBusca {background:url('../images/07_Resultado_busca.jpg') no-repeat center top; min-height:1990px;}
+
+/* CONTENT */
+.content {height:100%; margin:0 auto; position:relative; width:1236px;}
+
+.index .content {min-height:2708px;}
+.login .content {min-height:2800px;}
+.cadastro .content,
+.cadastroErro .content,
+.cadastroRealizado .content {min-height:1054px;}
+.estudos .content {min-height:3060px;}
+.estudoDescricao .content {min-height:1750px;}
+.resultadoBusca .content {min-height:1990px;}
+
+a.pub {background-color:#ff5500; cursor:pointer; display:inline-block; height:50px; left:405px; opacity:0.5; position:absolute; text-indent:-9999px; top:150px; width:188px;}
+a.btLogin {background-color:#ff5500; cursor:pointer; display:inline-block; height:42px; right:147px; opacity:0.5; position:absolute; text-indent:-9999px;  top:214px; width:130px;}
+a.btAcessar {background-color:#ff5500; cursor:pointer; display:inline-block; height:31px; right:247px; opacity:0.5; position:absolute; top:411px; width:90px;}
+a.btFechar {background-color:#ff5500; cursor:pointer; display:inline-block; height:16px; left:534px; opacity:0.5; position:absolute; top:303px; width:17px}
+a.btCadastro {background-color:#ff5500; cursor:pointer; display:inline-block; height:42px; right:296px; opacity:0.5; position:absolute; top:214px; width:131px;}
+a.btVoltar {background-color:#ff5500; cursor:pointer; display:inline-block; height:15px; left:28px; opacity:0.5; position:absolute; top:245px; width:40px;}
+a.btVoltar2 {background-color:#ff5500; cursor:pointer; display:inline-block; height:16px; left:145px; opacity:0.5; position:absolute; top:498px; width:39px;}
+a.btCadastrar {background-color:#ff5500; cursor:pointer; display:inline-block; height:42px; right:148px; opacity:0.5; position:absolute; top:813px; width:113px;}
+a.btSair {background-color:#ff5500; cursor:pointer; display:inline-block; height:42px; right:147px; opacity:0.5; position:absolute; top:214px; width:130px;}
+a.btSugestoes {background-color:#ff5500; cursor:pointer; display:inline-block; height:45px; right:362px; opacity:0.5; position:absolute; top:471px; width:208px;}
+a.btEstudo {background-color:#ff5500; cursor:pointer; display:inline-block; height:151px; left:147px; opacity:0.5; position:absolute; top:695px; width:301px;}
+a.btEstudo2 {background-color:#ff5500; cursor:pointer; display:inline-block; height:98px; left:485px; opacity:0.5; position:absolute; top:725px; width:553px;}
+a.btEnviar {background-color:#ff5500; cursor:pointer; display:inline-block; height:34px; left:340px; opacity:0.5; position:absolute; top:966px; width:104px;}
+a.abaEstudos {background-color:#ff5500; cursor:pointer; display:inline-block; height:45px; left:362px; opacity:0.5; position:absolute; top:471px; width:148px;}
+a.btResultado {background-color:#ff5500; cursor:pointer; display:inline-block; height:151px; left:147px; opacity:0.5; position:absolute; top:675px; width:301px;}
+a.btResultado2 {background-color:#ff5500; cursor:pointer; display:inline-block; height:98px; left:485px; opacity:0.5; position:absolute; top:705px; width:553px;}
+a.btBusca {background-color: #ff5500; cursor: pointer; display: inline-block; height: 72px; right: 267px; opacity: 0.5; position: absolute; top: 334px; width: 702px;}
+
+.nomeInp,
+.emailInp,
+.senhaInp,
+.confSenhaInp,
+.temaSugest,
+.loginInp_Login,
+.senhaInp_Login {border-radius:5px; color:#a6a6a6; font-family:Arial; height:36px; line-height:36px; padding-left:9px; position:absolute; width:390px;}
+.emailInpErro {border:1px solid #ff0000; color:#a6a6a6; font-family:Arial; height:36px; padding-left:9px; position:absolute; width:390px;}
+.temaSugestErro {border-radius:5px; color:#a6a6a6; font-family:Arial; height:33px; padding-left:9px; position:absolute; width:395px;}
+
+.loginInp_Login,
+.senhaInp_Login {width: 183px}
+
+.nomeInp {left:148px; top:619px;}
+.emailInp {left:148px; top:667px;}
+.senhaInp {left:148px; top:715px;}
+.confSenhaInp {left:148px; top:763px;}
+.emailInpErro {left:147px; top:666px;}
+.temaSugest {left:29px; top:762px;}
+.temaSugestErro {left:30px; top:763px;}
+.loginInp_Login {left:898px; top:289px;}
+.senhaInp_Login {left:898px; top:332px;}
+
+.login .connected-carousels {
+	top: 1035px;
+}
+
+.cadastroErro p {color: #ff0000; display: inline-block; font-family: arial; font-size: 12px; font-style: italic; left:147px; position:relative; top:580px;}
